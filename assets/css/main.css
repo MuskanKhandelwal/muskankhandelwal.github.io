@@ -121,7 +121,7 @@ input, select, textarea {
 		a:hover {
 			border-color: transparent;
 		}
-		.container mt-4 pt-4 {
+		.container-mt-4-pt-4 {
 			width: 100%; /* Or set your desired width */
 			margin: 0 auto; /* Centers the container */
 			padding: 0 15px; /* Add padding as needed */

@@ -121,7 +121,49 @@ input, select, textarea {
 		a:hover {
 			border-color: transparent;
 		}
-
+		.container {
+			width: 100%; /* Or set your desired width */
+			margin: 0 auto; /* Centers the container */
+			padding: 0 15px; /* Add padding as needed */
+			/* Add other styling properties */
+		}
+		
+	
+		.mt-4 {
+			margin-top: 1rem; /* Adjust the value as needed */
+		}
+		
+		.pt-4 {
+			padding-top: 1rem; /* Adjust the value as needed */
+		}
+		
+		.row {
+			display: flex;
+			flex-wrap: wrap;
+			margin-right: -15px;
+			margin-left: -15px;
+			/* Add other styling properties */
+		}
+		.col-lg-4 {
+			flex: 0 0 33.333333%; /* Adjust the width as needed */
+			max-width: 33.333333%; /* Adjust the width as needed */
+		}
+		
+		.col-lg-8 {
+			flex: 0 0 66.666666%; /* Adjust the width as needed */
+			max-width: 66.666666%; /* Adjust the width as needed */
+		}
+		
+		.imageAboutPage {
+			width: 100%; /* Or set your desired width */
+			height: auto; /* To maintain aspect ratio */
+			/* Add other styling properties */
+		}
+		.col-md-6 {
+			flex: 0 0 50%; /* Adjust the width as needed */
+			max-width: 50%; /* Adjust the width as needed */
+		}
+				
 /* Icon */
 
 	.icon {

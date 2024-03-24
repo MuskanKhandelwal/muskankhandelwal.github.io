@@ -121,23 +121,22 @@ input, select, textarea {
 		a:hover {
 			border-color: transparent;
 		}
-		.container {
+		.container mt-4 pt-4 {
 			width: 100%; /* Or set your desired width */
 			margin: 0 auto; /* Centers the container */
 			padding: 0 15px; /* Add padding as needed */
 			/* Add other styling properties */
 		}
 		
-	
-		.mt-4 {
-			margin-top: 1rem; /* Adjust the value as needed */
-		}
 		
-		.pt-4 {
-			padding-top: 1rem; /* Adjust the value as needed */
+		.row mt-4 {
+			display: flex;
+			flex-wrap: wrap;
+			margin-right: -15px;
+			margin-left: -15px;
+			/* Add other styling properties */
 		}
-		
-		.row {
+		.row mt-3{
 			display: flex;
 			flex-wrap: wrap;
 			margin-right: -15px;
@@ -164,6 +163,11 @@ input, select, textarea {
 			max-width: 50%; /* Adjust the width as needed */
 		}
 				
+		.text-center {
+			text-align: center;
+			/* Add other styling properties if needed */
+		}
+		
 /* Icon */
 
 	.icon {
